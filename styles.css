@@ -1,0 +1,71 @@
+body {
+  margin: 0;
+  font-family: 'Georgia', serif;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 40px;
+  background-color: #fff;
+  border-bottom: 1px solid #ddd;
+}
+
+.logo {
+  font-size: 24px;
+  font-weight: bold;
+  color: #333;
+}
+
+.navigation ul {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.navigation li {
+  margin-left: 40px;
+}
+
+
+.mainbody{
+  text-align: center;
+  font-size: 50px;
+}
+
+.firstimg{
+  display: flex;
+      justify-content: center; 
+      align-items: center; 
+      height: 50vh;
+    }
+
+.pehla{
+  height: 500px;
+  width: 1000px;
+  border-radius: 2%;
+}
+
+.baki{
+  display: grid;
+  height: 100vh;
+  grid-template-columns: repeat(3,1fr);
+}
+
+.nine{
+  margin: auto;
+}
+
+.final_text{
+  text-align: right;
+  margin-right: 100px;
+}
+
+.contact_info{
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  margin: 20px;
+  /* gap: 0px; */
+}
