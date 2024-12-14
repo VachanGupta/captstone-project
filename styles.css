@@ -36,16 +36,15 @@ body {
 }
 
 .firstimg{
-  display: flex;
+    display: flex;
       justify-content: center; 
       align-items: center; 
-      height: 50vh;
+      
     }
 
 .pehla{
-  height: 500px;
-  width: 1000px;
   border-radius: 2%;
+  width: 100%;
 }
 
 .baki{
@@ -56,6 +55,7 @@ body {
 
 .nine{
   margin: auto;
+  border-radius: 5%;
 }
 
 .final_text{
@@ -63,9 +63,27 @@ body {
   margin-right: 100px;
 }
 
+
 .contact_info{
   display: grid;
   grid-template-columns: repeat(3,1fr);
   margin: 20px;
   /* gap: 0px; */
 }
+
+.footer-header{
+  margin-left: 200px;
+  font-weight: bold;
+  font-size: 30px;
+}
+
+.footer-items{
+  margin: auto;
+}
+
+.footer-info{
+  display: flex; 
+  flex-direction: row;
+  justify-content: start;
+}
+
