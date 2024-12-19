@@ -261,7 +261,7 @@ body {
   .ground {
     grid-template-columns: repeat(3, 1fr);
     gap: 15px;
-  }
+  } 
 
   .final_text {
     font-size: 36px;
