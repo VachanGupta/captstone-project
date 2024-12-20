@@ -163,8 +163,6 @@ body {
   text-align: left;
 }
 
-
-
 .footer {
   display: flex;
   justify-content: space-between;
@@ -213,7 +211,7 @@ body {
   }
 
   .navi-ul li {
-    margin-left: 2%;
+    margin-left: .1%;
     margin-bottom: 10px;
     margin-top: 5%;
     font-size: 1px;
@@ -288,16 +286,17 @@ body {
   }
 
   .logo{
-    font-size: 24px;
+    font-size: 2rem;
   }
   .navi li {
     margin-left: 2%;
     margin-bottom: 10px;
     margin-top: 5%;
+    font-size: 1rem;
   }
 
   .mainbody h1 {
-    font-size: 30px;
+    font-size: 4rem;
   }
 
   .final_text {
